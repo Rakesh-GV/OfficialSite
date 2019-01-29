@@ -74,6 +74,36 @@ content-center{
 #section1{
     height: 100vh;
 }
+.hire-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background: #493cd3;
+    padding: 0.8em;
+    border-radius: 40px;
+    margin: 1em 0;
+    transition: 0.3s;
+}
+.hire-btn:hover{
+    box-shadow: 0 10px 50px rgba(188, 197, 216, 1);
+}
+
+.hire-btn-cv{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background: #493cd3;
+    padding: 0.6em;
+    border-radius: 40px;
+    margin: 1em 0;
+    transition: 0.3s;
+    z-index: 1;
+}
+.hire-btn-cv:hover{
+    box-shadow: 0 10px 50px rgba(188, 197, 216, 1);
+}
+
 
 #content{
     background-color: #f0f1f3;
