@@ -1,0 +1,169 @@
+html,
+body
+ {
+  margin: 0;
+  padding: 0;
+  transition: all 1s cubic-bezier(0.5, -0.005, 0.2, 1) !important;
+  -webkit-transition: all 1s cubic-bezier(0.5, -0.005, 0.2, 1) !important;
+  color: black;
+  background: #f0f1f3;
+  height: 100%;
+}
+
+
+.bg-dark {
+    background: #e55d87;
+	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+}
+
+.highlighted{
+    background-color: green;
+    transition: all 1s ease-in;
+}
+
+.highlightedside{
+    background-color: green;
+}
+
+
+.mobile-text-center{
+    text-align: center;
+    color: white;
+}
+
+content-center{
+    align-content: center;
+}
+
+#top-nav-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+}
+
+.mobile-cv{
+    position: fixed;
+    bottom: 5%;
+    right: 10%;
+    background: #a4bcca;
+    color: white;
+    border-radius: 50%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+.profile-img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+#web-sidebar{
+    /*background-color: #a4bcca!important;*/
+    width: 20%;
+    align-content: center;
+    text-align: center;
+    top:0;
+    bottom: 0;
+    position: fixed;
+    background: #e55d87;
+	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+}
+
+#content{
+    background-color: #f0f1f3;
+    width: 80%;
+    margin-left: 20%;
+}
+
+#menu{
+    text-align: center;
+    color: antiquewhite;    
+}
+
+#menu a {
+    padding-right: 25px;
+    color:white;
+}
+
+#menu a:hover {
+    
+}
+
+.web-cv{
+    position: fixed;
+    bottom: 15%;
+    right: 85%;
+}
+
+#section1,
+#section4{
+    height: 100vh;
+}
+
+#section3{
+}
+
+
+.social{
+    width: 60%;
+}
+
+.social-media{
+    display: block;
+    align-content: center;
+    align-items: center;
+    margin-top: 80%;
+}
+
+#footerSec{
+    margin: none;
+}
+
+footer ul li{
+    display:inline;
+}
+
+footer ul li a img {
+    width: 20%;
+    padding: 5px;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .only-mobile{
+        display: none;
+    }
+    #footerSec{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #web-sidebar{
+        display: none;
+    }
+    #content{
+        width: 100%;
+        margin: 0%;
+    }
+    #section1,
+    #section2,
+    #section3,
+    #section4{
+        margin-top:60px;
+    }
+}
+
+.prof{
+    padding: 1em;
+}
+
+  

@@ -1,0 +1,222 @@
+/************** Progress CSS ********************************/
+.progressBar {
+	margin-bottom: 26px;
+	margin-bottom: 1.66em;
+}
+.progressBar h4 {
+	font-size: 16px;
+	text-transform: none;
+	margin-bottom: 7px;
+	margin-bottom: .33em;
+}
+.progressBarContainer {
+	width: 100%;
+	height: 8px;
+	background: #E1E1E1;
+	overflow: hidden;
+}
+.progressBarValue {
+	height: 8px;
+	float: left;
+	background: #e55d87; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+}
+.value-00 {
+	width: 0;
+}
+.value-05 {
+	width: 5%;
+}
+.value-10 {
+	width: 10%;
+}
+.value-15 {
+	width: 15%;
+}
+.value-20 {
+	width: 20%;
+}
+.value-25 {
+	width: 25%;
+}
+.value-30 {
+	width: 30%;
+}
+.value-35 {
+	width: 35%;
+}
+.value-40 {
+	width: 40%;
+}
+.value-45 {
+	width: 45%;
+}
+.value-50 {
+	width: 50%;
+}
+.value-55 {
+	width: 55%;
+}
+.value-60 {
+	width: 60%;
+}
+.value-65 {
+	width: 65%;
+}
+.value-70 {
+	width: 70%;
+}
+.value-75 {
+	width: 75%;
+}
+.value-80 {
+	width: 80%;
+}
+.value-85 {
+	width: 85%;
+}
+.value-90 {
+	width: 90%;
+}
+.value-95 {
+	width: 95%;
+}
+.value-100 {
+	width: 100%;
+}
+
+/************************** AI Skills ******************************/
+.skills-diagram {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 60em;
+    margin: 2em auto 2em;
+  }
+  .skills-diagram > dd {
+    /* Hide inner attributes */
+    display: none;
+  }
+  .skills-diagram dt {
+    display: inline-block;
+    vertical-align: top;
+    
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    
+    -webkit-transform: scale(1.2);
+      -moz-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+    
+    /* set defaults to skill-2 */
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+  }
+  
+  .skills-diagram dt:hover {
+    -webkit-transform: scale(1.3);
+      -moz-transform: scale(1.3);
+      -o-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+      transform: scale(1.3);
+  }
+  
+  /* Support vertical mode */
+  .skills-diagram-vertical dt {
+    display: block;
+    /* .25em is an equivalent to inline-block's horizontal whitespace margin */
+    margin: .25em auto;
+  }
+  
+  /* Provide 10 different sizes */
+  .skills-diagram .skill-2 {
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    
+    background-color: rgba(201, 155, 129, .3);
+    border-color: rgba(201, 155, 129, 1);
+    color: rgba(201, 155, 129, 1);
+  }
+  .skills-diagram .skill-3 {
+    vertical-align: middle;
+    
+    width: 3em;
+    height: 3em;
+    line-height: 3em;
+    background-color: rgba(138, 138, 140, .3);
+    border-color: rgba(138, 138, 140, 1);
+    color: rgba(138, 138, 140, 1);
+  }
+  .skills-diagram .skill-4 {
+    width: 4em;
+    height: 4em;
+    line-height: 4em;
+    
+    background-color: rgba(234, 112, 97, .3);
+    border-color: rgba(234, 112, 97, 1);
+    color: rgba(234, 112, 97, 1);
+  }
+  .skills-diagram .skill-5 {
+    vertical-align: bottom;
+  
+    width: 5em;
+    height: 5em;
+    line-height: 5em;
+    background-color: rgba(109, 182, 173, .3);
+    border-color: rgba(109, 182, 173, 1);
+    color: rgba(109, 182, 173, 1);
+  }
+  .skills-diagram .skill-6 {
+    vertical-align: top;
+    
+    width: 6em;
+    height: 6em;
+    line-height: 6em;
+    
+    background-color: rgba(195, 192, 100, .3);
+    border-color: rgba(195, 192, 100, 1);
+    color: rgba(195, 192, 100, 1);
+  }
+  .skills-diagram .skill-7 {
+    width: 7em;
+    height: 7em;
+    line-height: 7em;
+    
+    background-color: rgba(214, 89, 102, .3);
+    border-color: rgba(214, 89, 102, 1);
+    color: rgba(214, 89, 102, 1);
+  }
+  .skills-diagram .skill-8 {
+    vertical-align: bottom;
+    
+    width: 8em;
+    height: 8em;
+    line-height: 8em;
+    background-color: rgba(46, 138, 75, .3);
+    border-color: rgba(46, 138, 75, 1);
+    color: rgba(46, 138, 75, 1);
+  }
+  .skills-diagram .skill-9 {
+    width: 11em;
+    height: 11em;
+    line-height: 11em;
+    
+    background-color: rgba(177, 18, 2, .3);
+    border-color: rgba(177, 18, 2, 1);
+    color: rgba(177, 18, 2, 1);
+  }
+  .skills-diagram .skill-10 {
+    width: 14em;
+    height: 14em;
+    line-height: 14em;
+    background-color: rgba(81, 112, 144, .3);
+    border-color: rgba(81, 112, 144, 1);
+    color: rgba(81, 112, 144, 1);
+  }
