@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,700");
+
 html,
 body
  {
@@ -8,6 +10,7 @@ body
   color: black;
   background: #f0f1f3;
   height: 100%;
+  font-family: 'Nunito', sans-serif;
 }
 
 
@@ -16,15 +19,6 @@ body
 	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
 	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
 	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
-}
-
-.highlighted{
-    background-color: green;
-    transition: all 1s ease-in;
-}
-
-.highlightedside{
-    background-color: green;
 }
 
 
@@ -77,6 +71,10 @@ content-center{
 	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
 }
 
+#section1{
+    height: 100vh;
+}
+
 #content{
     background-color: #f0f1f3;
     width: 80%;
@@ -103,13 +101,6 @@ content-center{
     right: 85%;
 }
 
-#section1,
-#section4{
-    height: 100vh;
-}
-
-#section3{
-}
 
 
 .social{
@@ -120,7 +111,7 @@ content-center{
     display: block;
     align-content: center;
     align-items: center;
-    margin-top: 80%;
+    margin-top: 75%;
 }
 
 #footerSec{
@@ -135,6 +126,8 @@ footer ul li a img {
     width: 20%;
     padding: 5px;
 }
+
+
 
 
 @media only screen and (min-width: 600px) {
@@ -154,16 +147,27 @@ footer ul li a img {
         width: 100%;
         margin: 0%;
     }
+    .highlighted{
+        background-color: green;
+        transition: all 1s ease-in;
+    }
+    
+    .highlightedside{
+        background-color: green;
+    }
+
     #section1,
     #section2,
     #section3,
     #section4{
         margin-top:60px;
     }
+    .card {
+        width: 100%;
+        margin-top: 10px; 
+      }
 }
 
 .prof{
     padding: 1em;
 }
-
-  

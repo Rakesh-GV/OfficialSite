@@ -42,6 +42,21 @@
     clear: both;
   }
   
+  .timeline > li:nth-child(odd) > .timeline-panel {
+    width: 46%;
+    float: left;
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+    padding: 20px;
+    position: relative;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    background: -moz-linear-gradient(-45deg, #5fc3e4 0%, #fff 100%);
+	background: -webkit-linear-gradient(-45deg, #5fc3e4 0%, #fff 100%);
+	background: linear-gradient(135deg, #5fc3e4 0%, #fff 100%); 
+  }
+
+  
   .timeline > li > .timeline-panel {
     width: 46%;
     float: left;
@@ -51,6 +66,9 @@
     position: relative;
     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    background: -moz-linear-gradient(-45deg, #fff 0%, #d8849e 100%);
+	background: -webkit-linear-gradient(-45deg, #fff 0%, #d8849e 100%);
+	background: linear-gradient(135deg, #fff 0%, #d8849e 100%); 
   }
   
   .timeline > li > .timeline-panel:before {

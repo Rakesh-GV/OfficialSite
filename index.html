@@ -17,13 +17,14 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossorigin="anonymous">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css'>
-    <link href="css/main.css" rel="stylesheet" />
     <link href="css/skills.css" rel="stylesheet" />
     <link href="css/timeline.css" rel="stylesheet" />
+    <link href="css/Projects.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
     <script src="js/main.js"></script>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#menu" data-offset="50">
     <div class="only-mobile">
         <div id="top-nav">
             <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
@@ -59,7 +60,7 @@
     <div class="only-web container-fluid">
         <div class="row">
             <div id="web-sidebar">
-                <div id="menu">
+                <div id="menu" style="margin-top:1em;">
                     <ul class="navbar-nav mr-auto nav">
                         <div class="nav-link">
                             <img src="images/pic.jpeg" style="border-radius:50%;" alt="Rakesh Gattapur" id="side-nav-img" />
@@ -103,7 +104,7 @@
                 <button class="web-cv btn btn-lg btn-info" style="color:white"><i class="fas fa-file"></i> Resume
                 </button>
             </div>
-            <div id="content">
+            <div id="content" data-spy="scroll" data-target="#menu" data-offset="0">
                 <section id="section1" class="prof">
 
                     <div class="prof-content">
@@ -131,7 +132,7 @@
                                 <h1>Experience & Education</h1>
                             </div>
                         </section>
-                        <article id="timeline">
+                        <article id="timeline" style="margin-top: 3em">
                             <ul class="timeline" id="bSTime">
                                 <li>
                                     <div class="timeline-badge info"><i class="icon fas fa-university"></i></div>
@@ -144,6 +145,7 @@
                                         </div>
                                         <div class="timeline-body">
                                             <p>Specialization in Artificial Intelligence.</p>
+                                            <p><i class="fas fa-poll"></i> Expected Grade : 2:1</p>
                                         </div>
                                     </div>
                                 </li>
@@ -157,7 +159,7 @@
                                         </div>
                                         <div class="timeline-body">
                                             <p> Desktop, Web and Mobile application development</p>
-                                            <p>Peformance Excellence Award for 2 years</p>
+                                            <p> <i class="fas fa-trophy"></i> Peformance Excellence Award for 2 years</p>
                                         </div>
                                     </div>
                                 </li>
@@ -170,8 +172,9 @@
                                                     August, 2015 - May, 2016</small></p>
                                         </div>
                                         <div class="timeline-body">
-                                            <p> Desktop, Web application development</p>
-                                            <p>Excellenct customer service and recognition</p>
+                                            <p> Desktop, Web application development.</p>
+                                            <p> <i class="fas fa-award"></i> Excellent customer service and
+                                                recognition.</p>
                                         </div>
                                     </div>
                                 </li>
@@ -185,7 +188,8 @@
                                                     August, 2011 - July, 2015</small></p>
                                         </div>
                                         <div class="timeline-body">
-                                            <p>Body.</p>
+                                            <p></p>
+                                            <p><i class="fas fa-poll"></i> Grade : 71%</p>
                                         </div>
                                     </div>
                                 </li>
@@ -205,7 +209,7 @@
                             </div>
                         </section>
                         <div class="container">
-                            <div class="row">
+                            <div class="row" style="margin-top: 3em">
                                 <div class="col-md-6 col-sm-12">
                                     <div class="skill-right-head">
                                         <h3> General / Database </h3>
@@ -267,7 +271,7 @@
                                 </div>
 
                             </div>
-                            <div class="row">
+                            <div class="row" style="margin-top: 2em">
                                 <div class="col-md-12 col-sm-12">
                                     <div style="text-align:center">
                                         <h3> Other Skills </h3>
@@ -304,12 +308,118 @@
                                 <h1>Projects</h1>
                             </div>
                         </section>
+                        <div class="row" style="align-content: center; margin-top: 3em">
+                            <div class="col-md-4 col-sm-12">
+                                <div class="example-1 card proj1">
+                                    <div class="wrapper">
+                                        <div class="date">
+                                            <span class="day">Under Development</span>
+                                        </div>
+                                        <div class="data">
+                                            <div class="content2">
+                                                <span class="author">@ University of Manchester</span>
+                                                <h3 class="title"><a href="#" style="text-decoration: none;cursor:auto">Career
+                                                        Advice ChatBot</a></h3>
+                                                <p class="text"> An AI powered chatbot to advice
+                                                    computer science students on their future career queries.</p>
+                                                <label for="show-menu" class="menu-button"><span></span></label>
+                                            </div>
+                                            <input type="checkbox" id="show-menu" />
+                                            <ul class="menu-content">
+                                                <li>
+                                                    <a>Alexa</a>
+                                                </li>
+                                                <li><a>AIML</a></li>
+                                                <li><a>C#</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="example-1 card proj2">
+                                    <div class="wrapper">
+                                        <div class="date">
+                                            <span class="day">Under Development</span>
+                                        </div>
+                                        <div class="data">
+                                            <div class="content2">
+                                                <span class="author">@ Riktha</span>
+                                                <h3 class="title"><a href="#" style="text-decoration: none;cursor:auto">
+                                                        Westlea Community </a></h3>
+                                                <p class="text"> A platform for residents of Westlea ward, Swindon to
+                                                    manage their social responsibility activities. </p>
+                                                <label for="show-menu1" class="menu-button"><span></span></label>
+                                            </div>
+                                            <input type="checkbox" id="show-menu1" />
+                                            <ul class="menu-content">
+                                                <li><a>C#</a></li>
+                                                <li><a>SQL</a></li>
+                                                <li><a>Angular</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="example-1 card proj3">
+                                    <div class="wrapper">
+                                        <div class="data">
+                                            <div class="content2">
+                                                <span class="author">@ NTT Data Services</span>
+                                                <h3 class="title"><a href="#" style="text-decoration: none;cursor:auto">
+                                                        Computerized Criminal History Records </a></h3>
+                                                <p class="text"> A platform for residents of Westlea ward, Swindon to
+                                                    manage their social responsibility activities. </p>
+                                                <label for="show-menu3" class="menu-button"><span></span></label>
+                                            </div>
+                                            <input type="checkbox" id="show-menu3" />
+                                            <ul class="menu-content">
+                                                <li><a>C#</a></li>
+                                                <li><a>SQL</a></li>
+                                                <li><a>Angular</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style=" margin-top: 3em">
+                            <div class="col-md-4 col-sm-12">
+                                <div class="example-1 card proj4">
+                                    <div class="wrapper">
+                                        <div class="data">
+                                            <div class="content2">
+                                                <span class="author">@ Visveswaraya Technological University</span>
+                                                <h3 class="title"><a href="#" style="text-decoration: none;cursor:auto">Student
+                                                        Project Companion</a></h3>
+                                                <p class="text"> An IDE tool
+                                                    specifically designed for CS students
+                                                    to ease process of developing their project </p>
+                                                <label for="show-menu4" class="menu-button"><span></span></label>
+                                            </div>
+                                            <input type="checkbox" id="show-menu4" />
+                                            <ul class="menu-content">
+                                                <li><a>Java</a></li>
+                                                <li><a>JavaFX</a></li>
+                                                <li><a>MySQL</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-8 more-to">
+                                <h3 class="title"><a href="#" style="text-decoration: none;cursor:auto;text-align: center">
+                                        . . . Many
+                                        more to come >></a></h3>
+                            </div>
+                        </div>
                     </div>
                 </section>
                 <section id="footerSec">
-                    <footer>
+                    <footer style="padding-top:50px;padding-bottom: 50px;">
                         <ul>
-                            <li><a href="tel:+917795353409"><img src="images/phone.png"></a></li>
+                            <li><a href="tel:+447448565415"><img src="images/phone.png"></a></li>
                             <li><a href="mailto:rakesh.gv3@gmail.com"><img src="images/gmail.png"></a></li>
                             <li><a href="https://www.facebook.com/rakesh.gv.3"><img src="images/fb_png.png"></a></li>
                             <li><a href="https://www.linkedin.com/in/rakesh-gattapur-792003107"><img src="images/link_png.png"></a></li>
