@@ -61,9 +61,9 @@ content-center{
 .into-section{
     /*background-image: url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
 */
-background-image: url("/images/intoback.jfif");
+background-image: url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
 background-repeat:no-repeat;
-background-size:100%; 
+background-size:100%;
 }
 .exp{
     padding-top: 20px;
